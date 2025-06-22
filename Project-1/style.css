@@ -2,10 +2,124 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* cursor: pointer; */
+  font-family: sans-serif;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+}
+
+#nav-1 {
+  height: 65px;
+  width: 100%;
+  display: flex;
+}
+
+#nav-part1 {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  padding: 20px 20px;
+}
+
+.gola {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 2px;
+}
+
+#nav-part2 {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 40px;
+  padding-right: 50px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+#nav-part2 p span {
+  color: gray;
+  padding-left: 10px;
+}
+
+#nav-2 {
+  height: 65px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding-left: 30px;
+}
+
+#hero-section {
+  height: calc(100% - 130px);
+  width: 100%;
+}
+
+#card-slider {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+#card-slider::-webkit-scrollbar {
+  background-color: transparent;
+  height: 10px;
+}
+
+#card-slider::-webkit-scrollbar-thumb {
+  background-color: orangered;
+  border-radius: 20px;
+}
+
+.card {
+  flex-shrink: 0;
+  height: 100%;
+  width: 800px;
+}
+
+.card p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+.card h1 {
+  font-size: 150px;
+  font-weight: 100;
+}
+
+#photo-slider {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+#photo-slider::-webkit-scrollbar {
+  display: none;
+}
+
+#photo-slider img {
+  flex-shrink: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
 }
