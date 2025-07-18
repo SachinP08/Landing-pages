@@ -253,14 +253,14 @@ body {
 #part-2-content h5 {
   width: 50%;
   font-size: 20px;
-  margin-top: 17px;
+  margin-top: 30px;
 }
 
 #part-2-content p {
   width: 50%;
   font-size: 13px;
   font-weight: 600;
-  margin-top: 17px;
+  margin-top: 33px;
   margin-left: 23px;
 }
 
@@ -402,7 +402,7 @@ body {
 }
 
 #page-6 {
-  height: 80%;
+  height: 70%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -411,7 +411,7 @@ body {
 
 #page-6 #part-1 {
   height: 100%;
-  width: 40%;
+  width: 32%;
   margin-right: 40px;
 }
 
@@ -432,9 +432,10 @@ body {
   font-size: 40px;
   font-family: "Kanit", sans-serif;
   font-weight: 800;
+  line-height: 27px;
 }
 
-#part-2 h5 {
+#page-6 #part-2 h5 {
   font-size: 25px;
   font-family: "Kanit", sans-serif;
   font-weight: 400;
@@ -471,4 +472,106 @@ body {
   height: 100%;
   width: 43%;
   object-fit: cover;
+}
+
+#page-7 {
+  height: 80%;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  margin-top: 80px;
+}
+
+#page-7 img {
+  height: 100%;
+  width: 81.2%;
+  margin-left: 140px;
+  object-fit: cover;
+}
+
+#page-7 #overlay {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  top: 15px;
+  right: 150px;
+}
+
+#page-8 {
+  height: 110%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#page-8 #area-1 {
+  height: 90%;
+  width: 48.5%;
+  margin-right: 48px;
+}
+
+#area-1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+#page-8 #area-2 {
+  height: 90%;
+  width: 30%;
+  margin-left: 20px;
+}
+
+#area-2 img {
+  height: 80%;
+  width: 100%;
+  object-fit: fill;
+}
+
+#area-2 #area-2-content {
+  display: flex;
+}
+
+#area-2-content h5 {
+  width: 50%;
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 21.5px;
+}
+
+#area-2-content p {
+  width: 50%;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 33px;
+  margin-left: 23px;
+}
+
+#marque-tag {
+  height: 12vh;
+  width: 100%;
+  background-color: aqua;
+  white-space: nowrap;
+  padding: 10px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#marque-tag h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-right: 16px;
+  background-color: rgb(112, 112, 221);
 }
