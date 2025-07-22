@@ -38,9 +38,29 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Kanit", sans-serif;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 700;
   letter-spacing: -2px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+#nav h1::after {
+  content: "©";
+  font-size: 20px;
+  margin-left: 5px;
+  margin-bottom: 13px;
+  font-weight: 600;
+}
+
+#nav h1::before {
+  content: "model management";
+  position: absolute;
+  font-size: 8px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-top: 35px;
+  margin-left: 41px;
 }
 
 #nav h2 {
@@ -676,6 +696,25 @@ body {
   padding-left: 80px;
 }
 
+#footer h1::after {
+  content: "©";
+  font-size: 20px;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+#footer h1::before {
+  content: "model management";
+  position: absolute;
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-top: 55px;
+  margin-left: 74px;
+}
+
 #footer h4 {
   height: 100%;
   width: 18%;
@@ -683,6 +722,7 @@ body {
   font-weight: 600;
   text-align: center;
   padding-top: 25px;
+  position: relative;
   border-right: 2px solid black;
 }
 
